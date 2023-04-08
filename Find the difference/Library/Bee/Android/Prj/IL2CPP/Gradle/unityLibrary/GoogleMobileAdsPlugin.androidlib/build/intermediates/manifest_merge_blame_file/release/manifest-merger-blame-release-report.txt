@@ -1,0 +1,48 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.google.unity.ads"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="1"
+8-->C:\Users\User\Find-the-difference-game\Find the difference\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\User\Find-the-difference-game\Find the difference\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml
+10
+11    <application>
+11-->C:\Users\User\Find-the-difference-game\Find the difference\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml:3:3-9:17
+12        <uses-library
+12-->C:\Users\User\Find-the-difference-game\Find the difference\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml:4:5-84
+13            android:name="org.apache.http.legacy"
+13-->C:\Users\User\Find-the-difference-game\Find the difference\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml:4:44-81
+14            android:required="false" />
+14-->C:\Users\User\Find-the-difference-game\Find the difference\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml:4:19-43
+15
+16        <meta-data
+16-->C:\Users\User\Find-the-difference-game\Find the difference\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml:5:5-130
+17            android:name="com.google.android.gms.ads.APPLICATION_ID"
+17-->C:\Users\User\Find-the-difference-game\Find the difference\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml:5:16-72
+18            android:value="ca-app-pub-3870393909896853~7574556857" />
+18-->C:\Users\User\Find-the-difference-game\Find the difference\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml:5:73-127
+19        <meta-data
+19-->C:\Users\User\Find-the-difference-game\Find the difference\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml:6:5-108
+20            android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT"
+20-->C:\Users\User\Find-the-difference-game\Find the difference\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml:6:16-84
+21            android:value="true" />
+21-->C:\Users\User\Find-the-difference-game\Find the difference\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml:6:85-105
+22        <meta-data
+22-->C:\Users\User\Find-the-difference-game\Find the difference\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml:7:5-110
+23            android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
+23-->C:\Users\User\Find-the-difference-game\Find the difference\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml:7:16-86
+24            android:value="true" />
+24-->C:\Users\User\Find-the-difference-game\Find the difference\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml:7:87-107
+25        <meta-data
+25-->C:\Users\User\Find-the-difference-game\Find the difference\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml:8:5-106
+26            android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING"
+26-->C:\Users\User\Find-the-difference-game\Find the difference\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml:8:16-82
+27            android:value="true" />
+27-->C:\Users\User\Find-the-difference-game\Find the difference\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml:8:83-103
+28    </application>
+29
+30</manifest>
