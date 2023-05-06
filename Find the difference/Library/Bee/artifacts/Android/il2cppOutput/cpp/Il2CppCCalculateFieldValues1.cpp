@@ -1576,14 +1576,14 @@ struct Builder_tA43002A25213D0C60D816558B409D90B08EBEE77  : public RuntimeObject
 	String_t* ___U3CCustomDataU3Ek__BackingField_1;
 };
 
-// btnControl/<spawnX>d__40
-struct U3CspawnXU3Ed__40_t6B5EC35183DE486F6E2B24B187FB5FF2ACF526F9  : public RuntimeObject
+// btnControl/<spawnX>d__42
+struct U3CspawnXU3Ed__42_tE87EEEC7DF5736074B887564E52837D3874A4DDD  : public RuntimeObject
 {
-	// System.Int32 btnControl/<spawnX>d__40::<>1__state
+	// System.Int32 btnControl/<spawnX>d__42::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object btnControl/<spawnX>d__40::<>2__current
+	// System.Object btnControl/<spawnX>d__42::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// btnControl btnControl/<spawnX>d__40::<>4__this
+	// btnControl btnControl/<spawnX>d__42::<>4__this
 	btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5* ___U3CU3E4__this_2;
 };
 
@@ -5507,6 +5507,8 @@ struct btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5  : public MonoBehavi
 	bool ___listOn_33;
 	// System.Boolean btnControl::openLvlNum
 	bool ___openLvlNum_34;
+	// UnityEngine.GameObject btnControl::adPanel
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___adPanel_35;
 };
 
 // desChild
@@ -5591,8 +5593,12 @@ struct tabRescaler_t2D5392D3DC58EABF0E3F7AFC52B2DCB5999CA47C  : public MonoBehav
 {
 	// UnityEngine.GameObject[] tabRescaler::gameCanvas
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___gameCanvas_4;
+	// UnityEngine.GameObject[] tabRescaler::ScrolViewUp
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___ScrolViewUp_5;
 	// UnityEngine.GameObject[] tabRescaler::gameCanvas2
-	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___gameCanvas2_5;
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___gameCanvas2_6;
+	// UnityEngine.GameObject[] tabRescaler::ScrolViewDown
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___ScrolViewDown_7;
 };
 
 // zoomControl
@@ -6117,10 +6123,10 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3207[1] =
 	static_cast<int32_t>(offsetof(BannerAd_t6BF1333DAC204201785704368C1B3FE7F3DCBEDF, ___bannerView_4)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3208[3] = 
 {
-	static_cast<int32_t>(offsetof(U3CspawnXU3Ed__40_t6B5EC35183DE486F6E2B24B187FB5FF2ACF526F9, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CspawnXU3Ed__40_t6B5EC35183DE486F6E2B24B187FB5FF2ACF526F9, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CspawnXU3Ed__40_t6B5EC35183DE486F6E2B24B187FB5FF2ACF526F9, ___U3CU3E4__this_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3209[31] = 
+	static_cast<int32_t>(offsetof(U3CspawnXU3Ed__42_tE87EEEC7DF5736074B887564E52837D3874A4DDD, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CspawnXU3Ed__42_tE87EEEC7DF5736074B887564E52837D3874A4DDD, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CspawnXU3Ed__42_tE87EEEC7DF5736074B887564E52837D3874A4DDD, ___U3CU3E4__this_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3209[32] = 
 {
-	static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___xIcon_4)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___circleIcon_5)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___screenPoint_6)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___loosePanel_7)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___winPanel_8)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___xnun_9)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___circleCol_10)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___chances_11)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___hint_12)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___hintsTxt_13)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___isVibrate_14)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___spotFound_15)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___spotsNum_16)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___gameCanvas_17)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___menuCanvas_18)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___lvlPanel_19)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___hearts_20)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___heartNum_21)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___hintHit_22)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___settingsPanel_23)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___settingsOn_24)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___bgMusic_25)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___musicOn_26)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___content_27)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___foundSpots_28)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___boolNum_29)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___lvlsSet_30)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___adsLevelNum_31)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___lisPanel_32)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___listOn_33)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___openLvlNum_34)),};
+	static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___xIcon_4)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___circleIcon_5)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___screenPoint_6)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___loosePanel_7)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___winPanel_8)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___xnun_9)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___circleCol_10)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___chances_11)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___hint_12)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___hintsTxt_13)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___isVibrate_14)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___spotFound_15)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___spotsNum_16)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___gameCanvas_17)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___menuCanvas_18)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___lvlPanel_19)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___hearts_20)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___heartNum_21)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___hintHit_22)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___settingsPanel_23)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___settingsOn_24)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___bgMusic_25)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___musicOn_26)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___content_27)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___foundSpots_28)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___boolNum_29)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___lvlsSet_30)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___adsLevelNum_31)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___lisPanel_32)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___listOn_33)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___openLvlNum_34)),static_cast<int32_t>(offsetof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5, ___adPanel_35)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3210[3] = 
 {
 	static_cast<int32_t>(offsetof(U3CactiVateU3Ed__3_t97F3D78E92E5C3B272F98171028130B8248FE845, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CactiVateU3Ed__3_t97F3D78E92E5C3B272F98171028130B8248FE845, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CactiVateU3Ed__3_t97F3D78E92E5C3B272F98171028130B8248FE845, ___U3CU3E4__this_2)),};
@@ -6172,9 +6178,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3226[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3227[5] = 
 {
 	static_cast<int32_t>(offsetof(setPotsNum_tAC271667F286E7935639FCE48EDF0BB6018F3ED6, ___newSpotNum_4)),static_cast<int32_t>(offsetof(setPotsNum_tAC271667F286E7935639FCE48EDF0BB6018F3ED6, ___spotsObj_5)),static_cast<int32_t>(offsetof(setPotsNum_tAC271667F286E7935639FCE48EDF0BB6018F3ED6, ___curLvl_6)),static_cast<int32_t>(offsetof(setPotsNum_tAC271667F286E7935639FCE48EDF0BB6018F3ED6, ___sparkle_7)),static_cast<int32_t>(offsetof(setPotsNum_tAC271667F286E7935639FCE48EDF0BB6018F3ED6, ___sparkleNum_8)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3229[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3229[4] = 
 {
-	static_cast<int32_t>(offsetof(tabRescaler_t2D5392D3DC58EABF0E3F7AFC52B2DCB5999CA47C, ___gameCanvas_4)),static_cast<int32_t>(offsetof(tabRescaler_t2D5392D3DC58EABF0E3F7AFC52B2DCB5999CA47C, ___gameCanvas2_5)),};
+	static_cast<int32_t>(offsetof(tabRescaler_t2D5392D3DC58EABF0E3F7AFC52B2DCB5999CA47C, ___gameCanvas_4)),static_cast<int32_t>(offsetof(tabRescaler_t2D5392D3DC58EABF0E3F7AFC52B2DCB5999CA47C, ___ScrolViewUp_5)),static_cast<int32_t>(offsetof(tabRescaler_t2D5392D3DC58EABF0E3F7AFC52B2DCB5999CA47C, ___gameCanvas2_6)),static_cast<int32_t>(offsetof(tabRescaler_t2D5392D3DC58EABF0E3F7AFC52B2DCB5999CA47C, ___ScrolViewDown_7)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3230[8] = 
 {
 	static_cast<int32_t>(offsetof(zoomControl_t15E7FF937C87AED05D2C6FF00B26F732720CB790, ___mainCamera_4)),static_cast<int32_t>(offsetof(zoomControl_t15E7FF937C87AED05D2C6FF00B26F732720CB790, ___touchesPrevPosDifference_5)),static_cast<int32_t>(offsetof(zoomControl_t15E7FF937C87AED05D2C6FF00B26F732720CB790, ___touchesCurPosDifference_6)),static_cast<int32_t>(offsetof(zoomControl_t15E7FF937C87AED05D2C6FF00B26F732720CB790, ___zoomModifier_7)),static_cast<int32_t>(offsetof(zoomControl_t15E7FF937C87AED05D2C6FF00B26F732720CB790, ___firstTouchPrevPos_8)),static_cast<int32_t>(offsetof(zoomControl_t15E7FF937C87AED05D2C6FF00B26F732720CB790, ___secondTouchPrevPos_9)),static_cast<int32_t>(offsetof(zoomControl_t15E7FF937C87AED05D2C6FF00B26F732720CB790, ___zoomModifierSpeed_10)),static_cast<int32_t>(offsetof(zoomControl_t15E7FF937C87AED05D2C6FF00B26F732720CB790, ___text_11)),};

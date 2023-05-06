@@ -14608,14 +14608,14 @@ struct UpdaterArray_tF8D43D2A3598E7C17ABB5308E83FDECF1F36A449  : public RuntimeO
 	IVisualTreeUpdaterU5BU5D_t9E9D948BC4F327DA519FEB2BCEC12FB7FD7C59E8* ___m_VisualTreeUpdaters_0;
 };
 
-// btnControl/<spawnX>d__40
-struct U3CspawnXU3Ed__40_t6B5EC35183DE486F6E2B24B187FB5FF2ACF526F9  : public RuntimeObject
+// btnControl/<spawnX>d__42
+struct U3CspawnXU3Ed__42_tE87EEEC7DF5736074B887564E52837D3874A4DDD  : public RuntimeObject
 {
-	// System.Int32 btnControl/<spawnX>d__40::<>1__state
+	// System.Int32 btnControl/<spawnX>d__42::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object btnControl/<spawnX>d__40::<>2__current
+	// System.Object btnControl/<spawnX>d__42::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// btnControl btnControl/<spawnX>d__40::<>4__this
+	// btnControl btnControl/<spawnX>d__42::<>4__this
 	btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5* ___U3CU3E4__this_2;
 };
 
@@ -44925,6 +44925,8 @@ struct btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5  : public MonoBehavi
 	bool ___listOn_33;
 	// System.Boolean btnControl::openLvlNum
 	bool ___openLvlNum_34;
+	// UnityEngine.GameObject btnControl::adPanel
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___adPanel_35;
 };
 
 // desChild
@@ -45019,8 +45021,12 @@ struct tabRescaler_t2D5392D3DC58EABF0E3F7AFC52B2DCB5999CA47C  : public MonoBehav
 {
 	// UnityEngine.GameObject[] tabRescaler::gameCanvas
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___gameCanvas_4;
+	// UnityEngine.GameObject[] tabRescaler::ScrolViewUp
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___ScrolViewUp_5;
 	// UnityEngine.GameObject[] tabRescaler::gameCanvas2
-	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___gameCanvas2_5;
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___gameCanvas2_6;
+	// UnityEngine.GameObject[] tabRescaler::ScrolViewDown
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___ScrolViewDown_7;
 };
 
 // zoomControl
@@ -52526,7 +52532,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize3206 = { sizeof(U3CU3Ec_tD9D
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3207;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize3207 = { sizeof(BannerAd_t6BF1333DAC204201785704368C1B3FE7F3DCBEDF), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3208;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize3208 = { sizeof(U3CspawnXU3Ed__40_t6B5EC35183DE486F6E2B24B187FB5FF2ACF526F9), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize3208 = { sizeof(U3CspawnXU3Ed__42_tE87EEEC7DF5736074B887564E52837D3874A4DDD), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3209;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize3209 = { sizeof(btnControl_t0D5ADAED70CC16FA61E3864A0DAD3D8D7E79C0B5), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3210;
