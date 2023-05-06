@@ -50,6 +50,8 @@ public class btnControl : MonoBehaviour
     public GameObject lisPanel;
     public bool listOn = false;
     public bool openLvlNum = false;
+
+    public GameObject adPanel;
     
     void Start()
     {
@@ -98,7 +100,8 @@ public class btnControl : MonoBehaviour
 
     public void zoomIn()
     {
-        foreach(GameObject c in content)
+        adPanel.SetActive(false);
+        foreach (GameObject c in content)
         {
             Vector3 cScale = c.transform.localScale;
             if(cScale.x < 2f)
@@ -119,6 +122,7 @@ public class btnControl : MonoBehaviour
         {
             child.GetComponent<RectTransform>().localPosition = new Vector3(0, -7.205017f, 0);
         }*/
+        adPanel.SetActive(false);
         foreach (GameObject c in content)
         {
             Vector3 cScale = c.transform.localScale;
@@ -135,6 +139,7 @@ public class btnControl : MonoBehaviour
 
     public void wrongSelect()
     {
+        adPanel.SetActive(false);
         if (chances > 0)
         {
             StartCoroutine(spawnX());
@@ -197,6 +202,7 @@ public class btnControl : MonoBehaviour
 
     public void hintBtn()
     {
+        adPanel.SetActive(false);
         if (GameObject.FindObjectOfType<setPotsNum>().curLvl >= GameObject.FindObjectOfType<levelRecorder>().btnOnTurn)
         {
             if (hint > 0)
@@ -211,6 +217,11 @@ public class btnControl : MonoBehaviour
         }
             
         
+    }
+
+    public void watchAd()
+    {
+        adPanel.SetActive(true);
     }
 
     IEnumerator spawnX()
@@ -228,10 +239,12 @@ public class btnControl : MonoBehaviour
     public void rightSelect()
     {
         Debug.Log("One spot found");
+        adPanel.SetActive(false);
     }
 
     public void lvlPanelBtn()
     {
+        adPanel.SetActive(false);
         openLvlNum = false;
         if (GameObject.FindObjectOfType<setPotsNum>().curLvl == GameObject.FindObjectOfType<levelRecorder>().btnOnTurn)
         {
@@ -280,7 +293,7 @@ public class btnControl : MonoBehaviour
     
     public void restart()
     {
-
+        adPanel.SetActive(false);
         openLvlNum = false;
         foreach (GameObject c in content)
         {
@@ -318,7 +331,8 @@ public class btnControl : MonoBehaviour
 
     public void listPanelShow()
     {
-        if(listOn == false)
+        adPanel.SetActive(false);
+        if (listOn == false)
         {
             lisPanel.SetActive(true);
             listOn = true;

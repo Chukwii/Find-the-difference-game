@@ -2269,7 +2269,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 173.8, y: 8}
-  m_SizeDelta: {x: 111.25079, y: 86.0765}
+  m_SizeDelta: {x: 100, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &39680794
 MonoBehaviour:
@@ -5755,7 +5755,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 94862427db8c6ee4cab1ea107ef97c42, type: 3}
-    m_FontSize: 121
+    m_FontSize: 110
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -7281,9 +7281,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 884068257}
-        m_TargetAssemblyTypeName: Rewarded, Assembly-CSharp
-        m_MethodName: ShowRewardedAd
+      - m_Target: {fileID: 729803713}
+        m_TargetAssemblyTypeName: btnControl, Assembly-CSharp
+        m_MethodName: watchAd
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10689,6 +10689,86 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 209347010}
   m_CullTransparentMesh: 1
+--- !u!1 &210273694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 210273695}
+  - component: {fileID: 210273697}
+  - component: {fileID: 210273696}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &210273695
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210273694}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1870356306}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.0010557, y: 0.0010209}
+  m_SizeDelta: {x: 292.24, y: 93.104}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &210273696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210273694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 94862427db8c6ee4cab1ea107ef97c42, type: 3}
+    m_FontSize: 54
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 90
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Watch Ad
+--- !u!222 &210273697
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210273694}
+  m_CullTransparentMesh: 1
 --- !u!1 &212311475
 GameObject:
   m_ObjectHideFlags: 0
@@ -11234,7 +11314,7 @@ GameObject:
   - component: {fileID: 239265289}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: ScrolViewUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -13739,7 +13819,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -122.269, y: 221.34}
+  m_AnchoredPosition: {x: -95, y: 192}
   m_SizeDelta: {x: 948.933, y: 551.552}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &279836813
@@ -13764,7 +13844,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 94862427db8c6ee4cab1ea107ef97c42, type: 3}
-    m_FontSize: 196
+    m_FontSize: 137
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -14873,7 +14953,7 @@ GameObject:
   - component: {fileID: 309392965}
   m_Layer: 5
   m_Name: Scroll View (1)
-  m_TagString: Untagged
+  m_TagString: ScrolViewDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -17559,6 +17639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   btnOnTurn: 2
+  openLvlNum: 0
 --- !u!4 &344156930
 Transform:
   m_ObjectHideFlags: 0
@@ -18249,7 +18330,7 @@ GameObject:
   - component: {fileID: 353269314}
   m_Layer: 5
   m_Name: Scroll View (1)
-  m_TagString: Untagged
+  m_TagString: ScrolViewDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -19830,7 +19911,7 @@ GameObject:
   - component: {fileID: 373867868}
   m_Layer: 5
   m_Name: Scroll View (1)
-  m_TagString: Untagged
+  m_TagString: ScrolViewDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -19991,7 +20072,7 @@ GameObject:
   - component: {fileID: 374712952}
   m_Layer: 5
   m_Name: Scroll View (1)
-  m_TagString: Untagged
+  m_TagString: ScrolViewDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -22463,7 +22544,7 @@ GameObject:
   - component: {fileID: 407032101}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: ScrolViewUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -24063,7 +24144,7 @@ GameObject:
   - component: {fileID: 449565357}
   m_Layer: 5
   m_Name: Scroll View (1)
-  m_TagString: Untagged
+  m_TagString: ScrolViewDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -25551,10 +25632,10 @@ RectTransform:
   m_Father: {fileID: 676240417}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 97.47803}
-  m_SizeDelta: {x: -109.6625, y: -597.052}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -2.9516907, y: 94.52649}
+  m_SizeDelta: {x: 500, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &493639325
 MonoBehaviour:
@@ -28174,7 +28255,7 @@ GameObject:
   - component: {fileID: 534547257}
   m_Layer: 5
   m_Name: Scroll View (1)
-  m_TagString: Untagged
+  m_TagString: ScrolViewDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -31307,7 +31388,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -167.8, y: 7.999961}
-  m_SizeDelta: {x: 111.25079, y: 86.0765}
+  m_SizeDelta: {x: 100, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &621343394
 MonoBehaviour:
@@ -32406,7 +32487,7 @@ GameObject:
   - component: {fileID: 631492300}
   m_Layer: 5
   m_Name: Scroll View (1)
-  m_TagString: Untagged
+  m_TagString: ScrolViewDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -32551,8 +32632,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 181, y: -0.0001492}
-  m_SizeDelta: {x: 160, y: 160}
+  m_AnchoredPosition: {x: 165, y: -0.0001492}
+  m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &632938162
 MonoBehaviour:
@@ -33977,7 +34058,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -29, y: -39}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &653771084
 MonoBehaviour:
@@ -35868,7 +35949,7 @@ GameObject:
   - component: {fileID: 709002502}
   m_Layer: 5
   m_Name: Scroll View (1)
-  m_TagString: Untagged
+  m_TagString: ScrolViewDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -36451,6 +36532,8 @@ MonoBehaviour:
   adsLevelNum: 050000000a00000010000000150000001a0000001f000000250000002a0000002f000000340000003a0000003f000000440000004a0000004f00000054000000590000005e00000064000000690000006e00000073000000780000007d00000082000000880000008d00000092000000970000009d000000a2000000a7000000ad000000b2000000b7000000bc000000c2000000c7000000
   lisPanel: {fileID: 188728153}
   listOn: 0
+  openLvlNum: 0
+  adPanel: {fileID: 1870356305}
 --- !u!4 &729803714
 Transform:
   m_ObjectHideFlags: 0
@@ -36479,7 +36562,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameCanvas: []
+  ScrolViewUp: []
   gameCanvas2: []
+  ScrolViewDown: []
 --- !u!1 &731523834
 GameObject:
   m_ObjectHideFlags: 0
@@ -37864,7 +37949,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -96.12201, y: 146.15105}
+  m_AnchoredPosition: {x: -83, y: 116}
   m_SizeDelta: {x: 1770.5, y: 846.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &760274367
@@ -37889,7 +37974,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 94862427db8c6ee4cab1ea107ef97c42, type: 3}
-    m_FontSize: 300
+    m_FontSize: 215
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 9
@@ -38000,7 +38085,7 @@ GameObject:
   - component: {fileID: 763101063}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: ScrolViewUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -39657,7 +39742,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 88.51718}
-  m_SizeDelta: {x: 800, y: 1046.97}
+  m_SizeDelta: {x: 600, y: 800}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &791701906
 MonoBehaviour:
@@ -39824,7 +39909,7 @@ GameObject:
   - component: {fileID: 798578312}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: ScrolViewUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -43888,7 +43973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e35c292f7e553c942ad743d804eb4ed9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rewBtn: {fileID: 139338874}
+  rewBtn: {fileID: 1870356305}
   errorTextObj: {fileID: 121307524}
 --- !u!1 &885293980
 GameObject:
@@ -46424,7 +46509,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -89, y: 21}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &941966549
 MonoBehaviour:
@@ -46660,7 +46745,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.000058174133, y: -102.737686}
+  m_AnchoredPosition: {x: -0.000058174133, y: -85}
   m_SizeDelta: {x: 600, y: 205.48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &944193724
@@ -46685,10 +46770,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 94862427db8c6ee4cab1ea107ef97c42, type: 3}
-    m_FontSize: 164
+    m_FontSize: 126
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 213
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -51330,7 +51415,7 @@ GameObject:
   - component: {fileID: 1062537630}
   m_Layer: 5
   m_Name: Scroll View (1)
-  m_TagString: Untagged
+  m_TagString: ScrolViewDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -51854,7 +51939,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -936, y: -0.000061035156}
-  m_SizeDelta: {x: 160, y: 160}
+  m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1071643670
 MonoBehaviour:
@@ -52268,8 +52353,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -226}
-  m_SizeDelta: {x: 160, y: 160}
+  m_AnchoredPosition: {x: 0, y: -206}
+  m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1073498540
 MonoBehaviour:
@@ -55534,7 +55619,7 @@ GameObject:
   - component: {fileID: 1150007267}
   m_Layer: 5
   m_Name: Scroll View (1)
-  m_TagString: Untagged
+  m_TagString: ScrolViewDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -58999,7 +59084,7 @@ GameObject:
   - component: {fileID: 1219627170}
   m_Layer: 5
   m_Name: Scroll View (1)
-  m_TagString: Untagged
+  m_TagString: ScrolViewDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -60130,7 +60215,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -131, y: -0.000061035156}
-  m_SizeDelta: {x: 160, y: 160}
+  m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1236134057
 MonoBehaviour:
@@ -60675,7 +60760,7 @@ GameObject:
   - component: {fileID: 1241911588}
   m_Layer: 5
   m_Name: Scroll View (1)
-  m_TagString: Untagged
+  m_TagString: ScrolViewDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -61410,8 +61495,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 63, y: -3}
-  m_SizeDelta: {x: 570, y: 196}
+  m_AnchoredPosition: {x: 39, y: -3}
+  m_SizeDelta: {x: 570, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1247319855
 MonoBehaviour:
@@ -62103,7 +62188,7 @@ GameObject:
   - component: {fileID: 1265367906}
   m_Layer: 5
   m_Name: Scroll View (1)
-  m_TagString: Untagged
+  m_TagString: ScrolViewDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -63511,7 +63596,7 @@ GameObject:
   - component: {fileID: 1286496372}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: ScrolViewUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -66708,7 +66793,7 @@ GameObject:
   - component: {fileID: 1344531835}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: ScrolViewUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -67459,7 +67544,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 94862427db8c6ee4cab1ea107ef97c42, type: 3}
-    m_FontSize: 196
+    m_FontSize: 137
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -68222,7 +68307,7 @@ GameObject:
   - component: {fileID: 1401721459}
   m_Layer: 5
   m_Name: Scroll View (1)
-  m_TagString: Untagged
+  m_TagString: ScrolViewDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -68346,7 +68431,7 @@ GameObject:
   - component: {fileID: 1402330276}
   m_Layer: 5
   m_Name: Scroll View (1)
-  m_TagString: Untagged
+  m_TagString: ScrolViewDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -70335,7 +70420,7 @@ GameObject:
   - component: {fileID: 1441516325}
   m_Layer: 5
   m_Name: Scroll View (1)
-  m_TagString: Untagged
+  m_TagString: ScrolViewDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -70641,7 +70726,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -84.525, y: 7.999961}
-  m_SizeDelta: {x: 111.25079, y: 86.0765}
+  m_SizeDelta: {x: 100, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1443088849
 MonoBehaviour:
@@ -71533,7 +71618,7 @@ GameObject:
   - component: {fileID: 1460054902}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: ScrolViewUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -73287,7 +73372,7 @@ GameObject:
   - component: {fileID: 1498360154}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: ScrolViewUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -74994,7 +75079,7 @@ GameObject:
   - component: {fileID: 1536313329}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: ScrolViewUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -75825,7 +75910,7 @@ GameObject:
   - component: {fileID: 1562336220}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: ScrolViewUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -77592,7 +77677,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 87.976, y: 7.999961}
-  m_SizeDelta: {x: 111.25079, y: 86.0765}
+  m_SizeDelta: {x: 100, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1612847184
 MonoBehaviour:
@@ -79739,7 +79824,7 @@ GameObject:
   - component: {fileID: 1667695567}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: ScrolViewUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -81546,7 +81631,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 8.5, y: 563.96484}
-  m_SizeDelta: {x: 600, y: 205.4575}
+  m_SizeDelta: {x: 550, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1706751561
 MonoBehaviour:
@@ -82273,7 +82358,7 @@ GameObject:
   - component: {fileID: 1726706607}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: ScrolViewUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -83910,6 +83995,7 @@ RectTransform:
   - {fileID: 941966548}
   - {fileID: 632938161}
   - {fileID: 1247319854}
+  - {fileID: 1870356306}
   m_Father: {fileID: 2048378800}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -85834,7 +85920,7 @@ GameObject:
   - component: {fileID: 1798476251}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: ScrolViewUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -86070,7 +86156,7 @@ GameObject:
   - component: {fileID: 1804773274}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: ScrolViewUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -88373,7 +88459,7 @@ GameObject:
   - component: {fileID: 1854122149}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: ScrolViewUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -88695,7 +88781,7 @@ GameObject:
   - component: {fileID: 1860093099}
   m_Layer: 5
   m_Name: Scroll View (1)
-  m_TagString: Untagged
+  m_TagString: ScrolViewDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -89188,6 +89274,140 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866342556}
+  m_CullTransparentMesh: 1
+--- !u!1 &1870356305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1870356306}
+  - component: {fileID: 1870356309}
+  - component: {fileID: 1870356308}
+  - component: {fileID: 1870356307}
+  m_Layer: 5
+  m_Name: hintPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1870356306
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870356305}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 210273695}
+  m_Father: {fileID: 1758270922}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -146.12, y: -54.737}
+  m_SizeDelta: {x: 260, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1870356307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870356305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1870356308}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 884068257}
+        m_TargetAssemblyTypeName: Rewarded, Assembly-CSharp
+        m_MethodName: ShowRewardedAd
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1870356308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870356305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e45e48874522e0b4b80b7bdb78bfd27f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1870356309
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870356305}
   m_CullTransparentMesh: 1
 --- !u!1 &1871336876
 GameObject:
@@ -93264,7 +93484,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -128}
-  m_SizeDelta: {x: 160, y: 160}
+  m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1955761340
 MonoBehaviour:
@@ -93375,7 +93595,7 @@ GameObject:
   - component: {fileID: 1957853525}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: ScrolViewUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -93499,7 +93719,7 @@ GameObject:
   - component: {fileID: 1962151475}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: ScrolViewUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -93643,7 +93863,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 4.196}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 53, y: 40}
+  m_AnchoredPosition: {x: 54.000004, y: 21.999935}
   m_SizeDelta: {x: 1770.5, y: 846.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1969671390
@@ -93668,7 +93888,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 94862427db8c6ee4cab1ea107ef97c42, type: 3}
-    m_FontSize: 300
+    m_FontSize: 215
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 9
@@ -94820,7 +95040,7 @@ GameObject:
   - component: {fileID: 1986680915}
   m_Layer: 5
   m_Name: Scroll View (1)
-  m_TagString: Untagged
+  m_TagString: ScrolViewDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -95108,7 +95328,7 @@ GameObject:
   - component: {fileID: 1998237381}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: ScrolViewUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -98144,7 +98364,7 @@ GameObject:
   - component: {fileID: 2053394394}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: ScrolViewUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -98359,7 +98579,7 @@ GameObject:
   - component: {fileID: 2061125068}
   m_Layer: 5
   m_Name: Scroll View (1)
-  m_TagString: Untagged
+  m_TagString: ScrolViewDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -99279,7 +99499,7 @@ GameObject:
   - component: {fileID: 2096451715}
   m_Layer: 5
   m_Name: Scroll View (1)
-  m_TagString: Untagged
+  m_TagString: ScrolViewDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -101003,7 +101223,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 1.3005, y: 7.999961}
-  m_SizeDelta: {x: 111.25079, y: 86.0765}
+  m_SizeDelta: {x: 100, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2128275334
 MonoBehaviour:
@@ -101170,7 +101390,7 @@ GameObject:
   - component: {fileID: 2134370682}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: ScrolViewUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -101693,8 +101913,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -371, y: -0.000061035156}
-  m_SizeDelta: {x: 160, y: 160}
+  m_AnchoredPosition: {x: -331, y: -0.000061035156}
+  m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2144623522
 MonoBehaviour:

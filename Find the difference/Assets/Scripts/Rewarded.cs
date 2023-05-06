@@ -68,6 +68,7 @@ public class Rewarded : MonoBehaviour
 
     public void ShowRewardedAd()
     {
+        rewBtn.SetActive(false);
         const string rewardMsg =
             "Rewarded ad rewarded the user. Type: {0}, amount: {1}.";
 
@@ -77,6 +78,7 @@ public class Rewarded : MonoBehaviour
             {
                 // TODO: Reward the user.
                 GameObject.FindObjectOfType<btnControl>().hint += 1;
+                
                 Debug.Log(String.Format(rewardMsg, reward.Type, reward.Amount));
             });
         }

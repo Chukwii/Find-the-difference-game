@@ -15,6 +15,7 @@ public class disableObj : MonoBehaviour
 
     public void disAble()
     {
+        GameObject.FindObjectOfType<btnControl>().adPanel.SetActive(false);
         StartCoroutine(showCorrect());
         hasClick = true;
         twinRightSel.GetComponent<disableObj>().hasClick = true;
@@ -22,6 +23,7 @@ public class disableObj : MonoBehaviour
 
     public void altDisable()
     {
+        GameObject.FindObjectOfType<btnControl>().adPanel.SetActive(false);
         if (GameObject.FindObjectOfType<setPotsNum>().curLvl < GameObject.FindObjectOfType<levelRecorder>().btnOnTurn)
         {
             Instantiate(GameObject.FindObjectOfType<btnControl>().circleIcon, this.transform.position, Quaternion.identity, this.gameObject.transform);
