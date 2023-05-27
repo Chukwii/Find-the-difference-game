@@ -23,7 +23,7 @@ public class Rewarded : MonoBehaviour
 
     // These ad units are configured to always serve test ads.
 #if UNITY_ANDROID
-    private string _adUnitId = "ca-app-pub-3870393909896853/3701209690";
+    private string _adUnitId = "ca-app-pub-3870393909896853/2623118044";
 #elif UNITY_IPHONE
   private string _adUnitId = "ca-app-pub-3940256099942544/1712485313";
 #else

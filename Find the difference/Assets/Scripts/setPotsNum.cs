@@ -49,7 +49,7 @@ public class setPotsNum : MonoBehaviour
                 GameObject.FindObjectOfType<levelRecorder>().btnOnTurn += 1;
             }
 
-            if (GameObject.FindObjectOfType<levelRecorder>().openLvlNum == 3)
+            if (GameObject.FindObjectOfType<levelRecorder>().openLvlNum == 3 && GameObject.FindObjectOfType<levelRecorder>().btnOnTurn < 4)
             {
                 GameObject.FindObjectOfType<levelRecorder>().btnOnTurn = 3;
             }
